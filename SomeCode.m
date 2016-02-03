@@ -1,8 +1,8 @@
-homedir = 'C:\Users\Josh';
-savepath = fullfile(homedir,'My Documents','Saves',datestr(today,'yyyymmdd'));
-loadpath = fullfile(homedir,'My Documents','RawData','BlackMesa-Exp42');
+homedir = '/Users/Josh';
+savepath = fullfile(homedir,'Documents','Saves',datestr(today,'yyyymmdd'));
+loadpath = fullfile(homedir,'Documents','RawData','BlackMesa-Exp42');
 
-remotedir = 'Z:\';
+remotedir = '/Volumes/share-sat/';
 no2profiles = fullfile(remotedir,'SAT','BEHR','Monthly_NO2_Profiles');
 globepath = fullfile(remotedir,'SAT','BEHR','GLOBE_Database');
 
